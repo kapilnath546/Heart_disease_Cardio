@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(page_title="Heart Disease Predictor", layout="wide")
-
+ 
 # Load saved model
 with open("heart_disease_model.pkl", "rb") as file:
     model = pickle.load(file)
